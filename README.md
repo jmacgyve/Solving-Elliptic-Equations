@@ -1,7 +1,7 @@
 # Solving Elliptic Equations
-  Solving elliptic equations using iterative methods + mpi and openmp technologies
+  Solution of elliptic equations by iterative methods using MPI and OPEN_MP technologies
 # Решение Эллептических Уравнений
-Решение эллиптических уравнений с использованием итерационных методов + технологий MPI / OPEN_MP
+Решение эллиптических уравнений итерационными методами с использованием технологий MPI / OPEN_MP
 
 Jacobi Method v1.1.c - решение однородного уравнения Пуассона с граничными условиями первого рода методом Якоби
 
