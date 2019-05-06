@@ -10,3 +10,4 @@ U(x,0) = U(0,y) = 0;
 U(1,y) = y;
 
 U(x,1) = x;
+![alt text](https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/Kyung%20Min%20Poisson%20Solver/RESULT/Jacobi%20Solution.png)
