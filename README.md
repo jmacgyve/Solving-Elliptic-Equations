@@ -12,4 +12,4 @@ U(1,y) = y;
 U(x,1) = x;
 
 
-![alt text]()
+![alt text](https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/RESULT/Jacobi%20Solution%20test%202.png)
