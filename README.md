@@ -5,8 +5,9 @@
 Решение эллиптических уравнений итерационными методами с использованием технологий MPI / OPEN_MP
 
 Обновление 30 мая 2019: добавлнено решение сложной задачи HardCase.c (Test 4)
-![alt text] (https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/Test%204%20(HardCase%20Ex).png)
-![alt text] (https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/Solution%20HardCase.png)
+![alt text](https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/Test%204%20(HardCase%20Ex).png)
+
+![alt text](https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/Solution%20HardCase.png)
 
 Jacobi Method v1.1.c - решение однородного уравнения Пуассона с граничными условиями первого рода методом Якоби
 
