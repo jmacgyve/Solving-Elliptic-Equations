@@ -71,7 +71,7 @@ void    poisson_solver(double **u, double **u_anal, double tol, double omega, in
 
 double func(int i,int j,double dx,double dy)
 {
-    return (-(0.625*pi*pi)*cos(pi*j*dy/2.0)*sin(pi*i*dx));
+    return (-(4*pi*pi)*(i*dx*i*dx + j*dy*j*dy)*sin(2*pi*i*dx*j*dy));
 }
 
 void initialization(double **p)
@@ -101,7 +101,7 @@ void func_anal(double **p, int row_num, int col_num, double dx, double dy)
     int i,j;
     for (i=0;i<row_num;i++){
         for (j=0;j<col_num;j++){
-            p[i][j] = sqrt(cos(pi*j*dy*0.5)*sin(pi*i*dx)); }}
+            p[i][j] = sin(2*pi*i*dx*j*dy); }}
 }
 
 void write_u(char *dir_nm,char *file_nm, double **p,double dx, double dy)

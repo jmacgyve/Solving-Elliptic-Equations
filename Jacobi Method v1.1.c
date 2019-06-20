@@ -6,7 +6,7 @@
 //......ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ......//
 
 int	COUNT = 0;
-int	N = 10; //размер сетки NхN
+int	N = 111; //размер сетки NхN
 double  eps = 0.000001; //точность - задается зависимо от задачи
 
 //. . . . . Ф У Н К Ц И И . . . . . //
@@ -174,7 +174,7 @@ void    Jacobi(double U[N+1][N+1], double NEW[N+1][N+1])
 	else
 	{
 		printf("res = %f\n COUNT = %d\n", res, COUNT);
-		print_NEW(NEW);
+//		print_NEW(NEW);
 	}
 	return ;
 }

@@ -96,7 +96,7 @@ int main(void)
     //
     //----------------------------------------
     BC = 2; //DONT CHANGE THIS !!!
-    method = 2;
+    method = 1;
 
     poisson_solver(u,u_anal,tol,omega,BC,method,dir_name);
 

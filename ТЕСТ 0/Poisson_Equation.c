@@ -95,8 +95,8 @@ int main(void)
     //        = 2 : SOR method
     //
     //----------------------------------------
-    BC = 2; //DONT CHANGE THIS !!!
-    method = 2;
+    BC = 2;
+    method = 1;
 
     poisson_solver(u,u_anal,tol,omega,BC,method,dir_name);
 

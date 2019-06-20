@@ -58,12 +58,12 @@ void Jacobi(double **p,double dx, double dy, double tol,
         else if (BC ==2){
           for (j=0;j<COL;j++){
               p_new[0][j] = 0.0;
-              p_new[ROW-1][j] = 0.0;
+              p_new[ROW-1][j] = sin(2*pi*j*dy);
           }
 
           for (i=0;i<ROW;i++) {
-              p_new[i][0] = sqrt(sin(pi*i*dx));
-              p_new[i][COL-1] = 0.0;
+              p_new[i][0] = 0.0;
+              p_new[i][COL-1] = sin(2*pi*i*dx);
           }
         }
 
