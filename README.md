@@ -1,8 +1,10 @@
-# Solving Elliptic Equations (UPDATE 30 May 2019)
+# Solving Elliptic Equations (UPDATE 20 June 2019)
   Solution of elliptic equations by iterative methods using MPI and OPEN_MP technologies
   
 # Решение Эллептических Уравнений
 Решение эллиптических уравнений итерационными методами с использованием технологий MPI / OPEN_MP
+
+Обновление 20 июня 2019: исправлены ошибки, проведены измерения для 4 Простых тестов
 
 Обновление 30 мая 2019: добавлнено решение сложной задачи HardCase.c (Test 4)
 ![alt text](https://github.com/jmacgyve/Solving-Elliptic-Equations/blob/master/Test%204%20(HardCase%20Ex).png)
