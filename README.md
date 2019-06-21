@@ -24,3 +24,9 @@ U(x,0) = U(0,y) = 0;  U(1,y) = y;  U(x,1) = x;
 
 
 В папке "OPEN_MP" выполнена параллельная реализация
+
+
+
+
+----------------------------------------------------------
+I express my deep gratitude for the assistance of @blackcata, @Dokholyan
