@@ -3,11 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-//не работает при граничном условии if (((i*dx - 0.33333)*(i*dx - 0.33333)+(j*dy-0.5)*(j*dy-0.5) - 0.04) == 0) F(x,y) = -10
-//else if (((i*dx - 0.33333)*(i*dx - 0.33333)+(j*dy-0.5)*(j*dy-0.5) - 0.04) != 0) F(x,y) = 0
-//1399 итераций
-//граничные условия соблюдены 
-//ВСЕГДА return 0.0;
+
 #define ROW 101
 #define COL 101
 #define pi 3.141592
