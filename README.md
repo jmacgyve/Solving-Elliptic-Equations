@@ -1,4 +1,4 @@
-# Solving Elliptic Equations (UPDATE 20 June 2019)
+# Solving Elliptic Equations
   Solution of elliptic equations by iterative methods using MPI and OPEN_MP technologies
   
 # Решение Эллептических Уравнений
